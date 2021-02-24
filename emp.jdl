@@ -1,0 +1,8 @@
+/**
+ * The employee entity.
+ * @author Shirish Bathe
+ */
+entity Employee {
+    name String required unique
+    dept String
+}
